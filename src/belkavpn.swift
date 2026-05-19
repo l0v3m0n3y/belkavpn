@@ -20,7 +20,7 @@ extension URLSession {
     }
 }
 
-public class Proxyscrape{
+public class Belkavpn{
     private let api = "https://api.belkavpn.com"
     private var headers: [String: String]
     
