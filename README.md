@@ -7,8 +7,8 @@ import belkavpn
 let client = Belkavpn()
 
 do {
-    let servers_list = try await client.get_socks5_list()
-    print(servers_list)
+    let serversList = try await client.getSocks5List()
+    print(serversList)
 } catch {
     print("Error: \(error)")
 }
